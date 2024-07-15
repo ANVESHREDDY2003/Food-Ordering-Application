@@ -1,0 +1,173 @@
+.food-ordering-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    background-image: linear-gradient(to right, #00b0ff, #2979ff);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.selected-foods {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.selected-foods h4 {
+    padding-bottom: 10px;
+    color: #00b0ff;
+    font-size: 24px;
+}
+
+.selected-foods ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.selected-foods li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.selected-foods li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.selected-foods li button:hover {
+    background-color: #d32f2f;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.total-price {
+    font-weight: bold;
+    color: #00b0ff;
+}
+
+.available-foods {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.available-foods h4 {
+    padding-bottom: 10px;
+    color: #00b0ff;
+    font-size: 24px;
+}
+
+.available-foods ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.food-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.food-item .food-item-image {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.food-item .food-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.food-item .food-item-details {
+    flex-grow: 1;
+}
+
+.food-item .food-item-details h5 {
+    margin: 0;
+    color: #00b0ff;
+    font-size: 20px;
+}
+
+.food-item .food-item-details p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 16px;
+}
+
+.food-item .food-item-details button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food-item .food-item-details button:hover {
+    background-color: #45a049;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.cart-button {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.cart-button button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cart-button button:hover {
+    background-color: #45a049;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.back-button {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.back-button button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.back-button button:hover {
+    background-color: #d32f2f;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}

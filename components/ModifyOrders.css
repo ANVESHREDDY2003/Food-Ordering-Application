@@ -1,0 +1,83 @@
+.modify-orders-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.modify-orders-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.orders-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.orders-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-details {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.status-label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.status-select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s;
+}
+
+.status-select:focus {
+    border-color: #007bff;
+}
+
+.update-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.update-button:hover {
+    background-color: #0069d9;
+    transform: scale(1.05);
+}
+
+.no-orders-message {
+    font-style: italic;
+    color: #888;
+}
